@@ -8,4 +8,4 @@ exports.handler = function(event, context, callback) {
   alexa.appId = config.APP_ID // APP_ID is your skill id which can be found in the Amazon developer console where you create the skill.
   alexa.registerHandlers(startHandlers.handlers, videoHandlers.handlers);
   alexa.execute();
-};
+}
