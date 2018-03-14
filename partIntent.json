@@ -1,8 +1,5 @@
 {
-  "introStart": "0:00",
-  "introEnd": "0:22",
-  "instrumentalEnds": "0:36",
-  "chorusStart": "1:17",
-  "chorusEnds": "1:50"
-
+  "introStart&End": "http://res.cloudinary.com/amerdtx/video/upload/du_35,eo_35,q_100,so_0/v1521007982/example_video.mp4",
+  "instsrumentalStart&End": "http://res.cloudinary.com/amerdtx/video/upload/du_17,eo_53,q_100,so_36/v1521007982/example_video.mp4",
+  "chorusStart&End": "http://res.cloudinary.com/amerdtx/video/upload/du_24,eo_78,q_100,so_54/v1521007982/example_video.mp4"
 }
