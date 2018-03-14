@@ -39,10 +39,10 @@ const videoHandlers = {
     const partName = this.event.request.intent.slots.PartName.value;
     console.log(JSON.stringify(this.event.request.intent.slots.PartName));
     this.response.speak('Ok, go back to part ' + partName);
+
+    //TODO play certain videos
+
     this.emit(':responseReady');
-
-    //TODO Seek
-
   }
 };
 
