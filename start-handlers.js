@@ -1,7 +1,9 @@
 const startHandlers = {
   "LaunchRequest" : function() {
     //emit response directly
-    this.emit(':tell', 'Hello, Welcome to Practice Hero!');
+    this.response.speak('Hello, Welcome to Practice Hero!');
+    this.response.shouldEndSession(false);
+    this.emit(':responseReady');
   },
   "HelloWorldIntent" : function() {
     //emit response directly
