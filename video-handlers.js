@@ -9,6 +9,18 @@ const videoHandlers = {
     };
     this.response.playVideo(videoSource, metadata);
     this.emit(':responseReady');
+  },
+  "IncreaseTempoIntent" : function() {
+    //emit response directly
+    this.emit(':tell', 'Ok, faster');
+  },
+  "DecreaseTempoIntent" : function() {
+    //emit response directly
+    this.emit(':tell', 'Ok, slower');
+  },
+  "GoBackToPartIntent" : function() {
+    //emit response directly
+    this.emit(':tell', 'Ok, go back to part');
   }
 };
 
